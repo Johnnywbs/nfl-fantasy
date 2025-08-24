@@ -1,0 +1,41 @@
+/* src/components/PlayerList.css */
+
+.player-container {
+  width: 80%;
+  margin: 2rem auto;
+  color: #333;
+}
+
+.first-div {
+    color: #ffffff; /* Azul escuro NFL */
+    margin-bottom: 1rem;
+}
+
+.player-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 1rem;
+  background-color: white;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.player-table th,
+.player-table td {
+  padding: 12px 15px;
+  border: 1px solid #ddd;
+  text-align: left;
+}
+
+.player-table th {
+  background-color: #0d47a1; /* Azul escuro NFL */
+  color: white;
+  font-weight: bold;
+}
+
+.player-table tbody tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+.player-table tbody tr:hover {
+  background-color: #bbdefb; /* Azul claro ao passar o rato */
+}

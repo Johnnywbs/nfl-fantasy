@@ -1,0 +1,41 @@
+/* src/components/Navbar.css */
+
+.navbar {
+  display: flex; /* Alinha os itens lado a lado */
+  justify-content: space-between; /* Espaça o logo e os links */
+  align-items: center; /* Alinha verticalmente no centro */
+  background-color: #0d47a1; /* Azul escuro da NFL */
+  padding: 0 2rem; /* Espaçamento interno (vertical, horizontal) */
+  color: white;
+  height: 60px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.navbar-logo a {
+  color: white;
+  text-decoration: none;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.navbar-links {
+  list-style: none; /* Remove os pontos da lista */
+  margin: 0;
+  padding: 0;
+  display: flex; /* Alinha os links lado a lado */
+}
+
+.navbar-links li {
+  padding: 0 1rem; /* Espaçamento entre os links */
+}
+
+.navbar-links a {
+  color: white;
+  text-decoration: none;
+  font-size: 1rem;
+  transition: color 0.3s ease; /* Efeito suave na cor */
+}
+
+.navbar-links a:hover {
+  color: #bbdefb; /* Cor mais clara ao passar o rato */
+}
